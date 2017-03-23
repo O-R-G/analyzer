@@ -1,3 +1,5 @@
+// based on http://jsfiddle.net/pc76H/2/
+
 (function(){    
     var canvas, audio, ajax, source, analyser, sound, animation, w, h, context, button;
     var globalbuffer;
