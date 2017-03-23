@@ -3,7 +3,7 @@
 (function(){    
     var canvas, audio, ajax, source, analyser, sound, animation, w, h, context, button;
     var globalbuffer;
-    var url = 'all-collected-voices_v1.mp3';
+    var url = 'media/mp3/all-collected-voices_v1.mp3';
     var bufferLoader;   // may be unnec.
     
     function init(){
@@ -14,8 +14,8 @@
         h=canvas.height=200;
         context=canvas.getContext("2d");
         // document.body.appendChild(canvas);
-        var controls = document.getElementById("controls");
-        controls.appendChild(canvas);
+        var container = document.getElementById("analyzer");
+        container.appendChild(canvas);
 
         // webaudio
         window.AudioContext = window.AudioContext || window.webkitAudioContext;

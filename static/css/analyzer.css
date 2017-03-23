@@ -10,7 +10,7 @@ canvas {
     background-color:#EEE;
 }
 
-#controls {
+#analyzer {
     position: fixed;
     bottom: 0;
     border: 1px solid black;
